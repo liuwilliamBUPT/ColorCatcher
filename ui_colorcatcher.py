@@ -9,10 +9,11 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
+
 class Ui_ColorCatcher(object):
     def setupUi(self, ColorCatcher):
         ColorCatcher.setObjectName("ColorCatcher")
-        ColorCatcher.resize(259, 88)
+        ColorCatcher.resize(415, 168)
         self.verticalLayout = QtWidgets.QVBoxLayout(ColorCatcher)
         self.verticalLayout.setObjectName("verticalLayout")
         self.lineEditMove = QtWidgets.QLineEdit(ColorCatcher)
@@ -35,6 +36,7 @@ class Ui_ColorCatcher(object):
     def retranslateUi(self, ColorCatcher):
         _translate = QtCore.QCoreApplication.translate
         ColorCatcher.setWindowTitle(_translate("ColorCatcher", "ColorCatcher"))
-        self.lineEditMark.setText(_translate("ColorCatcher", "Press Space to mark"))
-        self.lineEditMark.setPlaceholderText(_translate("ColorCatcher", "Press Space to mark!"))
-
+        self.lineEditMark.setText(
+            _translate("ColorCatcher", "Press Space to mark"))
+        self.lineEditMark.setPlaceholderText(
+            _translate("ColorCatcher", "Press Space to mark!"))
