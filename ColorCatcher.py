@@ -39,7 +39,7 @@ class ColorCatcher(QWidget):
                     self.nowColor = color
                     self.ui.lineEditMove.setText(
                         '(%d, %d, %d) %s \n '
-                        'HSV in cv2 (%d, %d %d)' % (r, g, b,
+                        'HSV in cv2 (%d, %d, %d)' % (r, g, b,
                                                     color.name().upper(),
                                                     h, s, v))
                     self.ui.lineEditMove.setStyleSheet('QLineEdit{border:2px '

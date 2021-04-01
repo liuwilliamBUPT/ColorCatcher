@@ -31,6 +31,8 @@ class Ui_ColorCatcher(object):
         self.verticalLayout.addWidget(self.lineEditMark)
 
         self.retranslateUi(ColorCatcher)
+        # 置顶
+        ColorCatcher.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
         QtCore.QMetaObject.connectSlotsByName(ColorCatcher)
 
     def retranslateUi(self, ColorCatcher):
